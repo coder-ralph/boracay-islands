@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!-- Boracay Island Website by CoderRalph -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boracay Island</title>
+
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+<body onload="checkCookie()">
+
+    <!-- Header section starts -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>Boracay</span>Island</a>
+
+        <div class="navbar">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#hotels">Hotels</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- Header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+    
+        <i class="fas fa-times" id="form-close"></i>
+    
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    
+    </div>
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>To Travel is to Live</h3>
+            <p>Discover new places with us, Adventure awaits</p>
+            <a href="#" class="btn">Discover more</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>Book</span> 
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="static/images/book.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of members">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts -->
+
+    <section class="hotels" id="hotels">
+
+        <h1 class="heading">
+            <span>Hotels</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="static/images/hotel-1.png" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>The Lind Boracay</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₱ 4,115.86<span>per night</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/hotel-2.png" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Savoy Hotel Boracay</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₱ 3,100.66<span>per night</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/hotel-3.png" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Paradise Garden Resort Hotel & Convention Resort</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₱ 3,360.66<span>per night</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/hotel-4.png" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Le Soleil de Boracay Hotel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <div class="price">₱ 5,389.16<span>per night</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/hotel-5.png" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Hotel Soffia Boracay</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">₱ 5,240.11<span>per night</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="static/images/hotel-6.png" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Urban Boutique Hotel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <div class="price">₱ 2,360.18<span>per night</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>services</span>
+        </h1>
+
+        <div class="box-container">
+        
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+                    exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            </div>
+        
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>gallery</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="static/images/boracay-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/boracay-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/boracay-3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/boracay-4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/boracay-5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/boracay-6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/boracay-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="static/images/boracay-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn load-btn">Load more</a>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- contact section starts  -->
+    
+    <section class="contact" id="contact">
+    
+        <h1 class="heading">
+            <span>contact</span>
+        </h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="static/images/contact-img.svg" alt="">
+            </div>
+    
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+    
+        </div>
+    
+    </section>
+    
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>explore boracay</h3>
+                <a href="#">Most Booked Hotels</a>
+                <a href="#">Popular Hotels</a>
+                <a href="#">Best Reviewed Hotels</a>
+                <a href="#">Reviews of Boracay</a>
+            </div>
+
+            <div class="box">
+                <h3>help</h3>
+                <a href="#">Help Center</a>
+                <a href="#">Help support</a>
+                <a href="#">Customer refunds</a>
+                <a href="#">Author refunds</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">meta</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+             <div class="box">
+                <h3>contact</h3>
+                <a href="#">T: (+63) 987 654 321</a>
+                <a href="#">T: (+63) 987 654 321</a>
+                <br>
+                <a href="#">© Copyright 2022 | Privacy Policy</a>
+                <a href="#">All rights reserved</a>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <script src="static/js/script.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+</body>
+</html>
